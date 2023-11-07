@@ -2481,6 +2481,13 @@ class Update implements Saveable {
             saveData.statistics.temporaryBattleDefeated = Update.moveIndex(saveData.statistics.temporaryBattleDefeated, 125);
             saveData.statistics.temporaryBattleDefeated = Update.moveIndex(saveData.statistics.temporaryBattleDefeated, 126);
             saveData.statistics.temporaryBattleDefeated = Update.moveIndex(saveData.statistics.temporaryBattleDefeated, 127);
+
+            // Replace Everstone with Float Stone
+            playerData.mineInventory.forEach(i => {
+                if (i.name === 'Everstone') {
+                    i.name = 'Float Stone';
+                }
+            });
         },
     };
 

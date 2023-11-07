@@ -20,7 +20,7 @@ type UndergroundItemNameType
     | 'Odd Keystone'
     | 'Hard Stone'
     | 'Oval Stone'
-    | 'Everstone'
+    | 'Float Stone'
     | 'Smooth Rock'
     | 'Heat Rock'
     | 'Icy Rock'

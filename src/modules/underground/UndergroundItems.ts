@@ -61,7 +61,7 @@ UndergroundItems.addItem(new UndergroundItem('Light Clay', 7, [[1, 0, 1, 0], [1,
 UndergroundItems.addItem(new UndergroundItem('Odd Keystone', 8, [[1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1]], 6));
 UndergroundItems.addItem(new UndergroundItem('Hard Stone', 9, [[1, 1], [1, 1]], 4));
 UndergroundItems.addItem(new UndergroundItem('Oval Stone', 10, [[1, 1, 1], [1, 1, 1], [1, 1, 1]], 3));
-UndergroundItems.addItem(new UndergroundItem('Everstone', 11, [[1, 1, 1, 1], [1, 1, 1, 1]], 3));
+UndergroundItems.addItem(new UndergroundItem('Float Stone', 11, [[1, 1, 1, 1], [1, 1, 1, 1]], 3));
 UndergroundItems.addItem(new UndergroundItem('Smooth Rock', 12, [[0, 0, 1, 0], [1, 1, 1, 0], [0, 1, 1, 1], [0, 1, 0, 0]], 2));
 UndergroundItems.addItem(new UndergroundItem('Heat Rock', 13, [[1, 0, 1, 0], [1, 1, 1, 1], [1, 1, 1, 1]], 2));
 UndergroundItems.addItem(new UndergroundItem('Icy Rock', 14, [[0, 1, 1, 0], [1, 1, 1, 1], [1, 1, 1, 1], [1, 0, 0, 1]], 2));

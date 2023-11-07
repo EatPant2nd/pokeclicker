@@ -3384,7 +3384,7 @@ export const pokemonList = createPokemonArray(
             'specialDefense': 30,
             'speed': 20,
         },
-        'heldItem': { type: ItemType.underground, id: 'Everstone' },
+        'heldItem': { type: ItemType.underground, id: 'Float Stone' },
     },
     {
         'id': 74.01,
@@ -3421,7 +3421,7 @@ export const pokemonList = createPokemonArray(
             'specialDefense': 30,
             'speed': 20,
         },
-        'heldItem': { type: ItemType.underground, id: 'Everstone' },
+        'heldItem': { type: ItemType.underground, id: 'Float Stone' },
     },
     {
         'id': 75,
@@ -16425,7 +16425,7 @@ export const pokemonList = createPokemonArray(
             'specialDefense': 25,
             'speed': 15,
         },
-        'heldItem': { type: ItemType.underground, id: 'Everstone' },
+        'heldItem': { type: ItemType.underground, id: 'Float Stone' },
     },
     {
         'id': 525,
@@ -16444,7 +16444,7 @@ export const pokemonList = createPokemonArray(
             'specialDefense': 40,
             'speed': 20,
         },
-        'heldItem': { type: ItemType.underground, id: 'Everstone' },
+        'heldItem': { type: ItemType.underground, id: 'Float Stone' },
     },
     {
         'id': 526,
@@ -16462,7 +16462,7 @@ export const pokemonList = createPokemonArray(
             'specialDefense': 80,
             'speed': 25,
         },
-        'heldItem': { type: ItemType.underground, id: 'Everstone' },
+        'heldItem': { type: ItemType.underground, id: 'Float Stone' },
     },
     {
         'id': 527,
