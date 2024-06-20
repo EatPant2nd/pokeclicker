@@ -193,3 +193,6 @@ RoamingPokemonList.roamerGroups.forEach((regionGroups, region) => {
     });
 });
 RoamingPokemonList.add(Region.johto, 0, new RoamingPokemon('Reindeer Stantler', new SpecialEventRequirement('Merry Christmas!')));
+RoamingPokemonList.add(Region.galar, 0, new RoamingPokemon('Toxel (Christmas)', new SpecialEventRequirement('Merry Christmas!')));
+RoamingPokemonList.add(Region.galar, 2, new RoamingPokemon('Toxel (Christmas)', new SpecialEventRequirement('Merry Christmas!')));
+RoamingPokemonList.add(Region.galar, 3, new RoamingPokemon('Toxel (Christmas)', new SpecialEventRequirement('Merry Christmas!')));

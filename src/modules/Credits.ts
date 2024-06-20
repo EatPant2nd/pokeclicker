@@ -591,6 +591,7 @@ export const SpriteCredits: Credit[] = [
             'Reindeer Stantler',
             'Spooky Ivysaur',
             'Spooky Venusaur',
+            'Toxel (Christmas)',
         ],
         // Notes: Made specifically for PokéClicker.
     },
