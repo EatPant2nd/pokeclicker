@@ -127,6 +127,7 @@ export const SpriteCredits: Credit[] = [
             'Allister',
             'Arezu',
             'Avery',
+            'Ball Guy',
             'Bea',
             'Bede',
             'Calaba',

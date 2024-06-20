@@ -8498,9 +8498,9 @@ const CirchesterGuitarist = new NPC('Guitarist Justin', [
     'I’m too busy playing gigs to scamper around with Snom in the evening!',
 ], {image: 'assets/images/npcs/Guitarist (male).png'});
 
-const NorthGalarRoamerNPC = new RoamerNPC('Bob\'s Your Roamer NPC', [
-    'Jenn said it couldn\'t be made but, look who is laughing now! Oh, check {ROUTE_NAME}.',
-], GameConstants.Region.galar, RoamingPokemonList.findGroup(GameConstants.Region.galar, GameConstants.GalarSubRegions.NorthGalar), 'assets/images/npcs/Cook.png', new SpecialEventRequirement('Merry Christmas!'));
+const NorthGalarRoamerNPC = new RoamerNPC('Ball Guy', [
+    'Merry Christmas! As a special occassion, instead of giving you a Poké Ball, I\'ll point you towards some rare Pokémon I saw. Go check {ROUTE_NAME}!',
+], GameConstants.Region.galar, RoamingPokemonList.findGroup(GameConstants.Region.galar, GameConstants.GalarSubRegions.NorthGalar), 'assets/images/npcs/Ball Guy.png', new SpecialEventRequirement('Merry Christmas!'));
 
 const TeamYellGrunts = new NPC('Team Yell Grunts', [
     'Our Marnie’s Morpeko is so cute, don’tcha think?',
