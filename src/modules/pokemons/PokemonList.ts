@@ -25686,7 +25686,7 @@ export const pokemonList = createPokemonArray(
     },
     {
         'id': 848.01,
-        'name': 'Toxel (Christmas)',
+        'name': 'Christmas Toxel',
         'type': [
             PokemonType.Ice,
             PokemonType.Poison,

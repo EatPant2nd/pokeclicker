@@ -8498,6 +8498,10 @@ const CirchesterGuitarist = new NPC('Guitarist Justin', [
     'I’m too busy playing gigs to scamper around with Snom in the evening!',
 ], {image: 'assets/images/npcs/Guitarist (male).png'});
 
+const NorthGalarRoamerNPC = new RoamerNPC('Bob\'s Your Roamer NPC', [
+    'Jenn said it couldn\'t be made but, look who is laughing now! Oh, check {ROUTE_NAME}.',
+], GameConstants.Region.galar, RoamingPokemonList.findGroup(GameConstants.Region.galar, GameConstants.GalarSubRegions.NorthGalar), 'assets/images/npcs/Cook.png', new SpecialEventRequirement('Merry Christmas!'));
+
 const TeamYellGrunts = new NPC('Team Yell Grunts', [
     'Our Marnie’s Morpeko is so cute, don’tcha think?',
     'When it’s hungry, though, it gets so angry it changes forms.',
@@ -9158,7 +9162,7 @@ TownList.Circhester = new Town(
     [TemporaryBattleList['Rampaging Gigalith'], TemporaryBattleList['Rampaging Froslass'], GymList.Circhester1, GymList.Circhester2, CirchesterShop, new ShardTraderShop(GameConstants.ShardTraderLocations.Circhester)],
     {
         requirements: [new RouteKillRequirement(10, GameConstants.Region.galar, 26)],
-        npcs: [HerosBath, CirchesterHop, CirchesterSonia, CirchesterGuitarist],
+        npcs: [HerosBath, CirchesterHop, CirchesterSonia, CirchesterGuitarist, NorthGalarRoamerNPC],
     }
 );
 TownList.Spikemuth = new Town(

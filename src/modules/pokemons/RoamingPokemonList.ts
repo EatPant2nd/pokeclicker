@@ -184,6 +184,8 @@ RoamingPokemonList.add(Region.kanto, 0, new RoamingPokemon('Pikachu (Clone)', ne
 RoamingPokemonList.add(Region.kanto, 0, new RoamingPokemon('Let\'s Go Pikachu', new SpecialEventRequirement('Let\'s GO!')));
 RoamingPokemonList.add(Region.kanto, 0, new RoamingPokemon('Let\'s Go Eevee', new SpecialEventRequirement('Let\'s GO!')));
 // Christmas (Dec 18 - Dec 31)
+// Adding Christmas Toxel first so Santa Snorlax can also spawn in North Galar
+RoamingPokemonList.add(Region.galar, 1, new RoamingPokemon('Christmas Toxel', new SpecialEventRequirement('Merry Christmas!')));
 // Add to every roaming group that has at least one roamer
 RoamingPokemonList.roamerGroups.forEach((regionGroups, region) => {
     regionGroups.forEach((_, subRegionGroup) => {
@@ -193,6 +195,3 @@ RoamingPokemonList.roamerGroups.forEach((regionGroups, region) => {
     });
 });
 RoamingPokemonList.add(Region.johto, 0, new RoamingPokemon('Reindeer Stantler', new SpecialEventRequirement('Merry Christmas!')));
-RoamingPokemonList.add(Region.galar, 0, new RoamingPokemon('Toxel (Christmas)', new SpecialEventRequirement('Merry Christmas!')));
-RoamingPokemonList.add(Region.galar, 2, new RoamingPokemon('Toxel (Christmas)', new SpecialEventRequirement('Merry Christmas!')));
-RoamingPokemonList.add(Region.galar, 3, new RoamingPokemon('Toxel (Christmas)', new SpecialEventRequirement('Merry Christmas!')));

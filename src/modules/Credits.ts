@@ -575,6 +575,7 @@ export const SpriteCredits: Credit[] = [
         link: 'https://discordapp.com/users/736029608587296819',
         image: 'assets/images/profile/trainer-119.png',
         resources: [
+            'Christmas Toxel',
             'Ditto (Transforming)',
             'Dugtrio (Punk)',
             'Genesect (High-Speed) and Drive Forms',
@@ -591,7 +592,6 @@ export const SpriteCredits: Credit[] = [
             'Reindeer Stantler',
             'Spooky Ivysaur',
             'Spooky Venusaur',
-            'Toxel (Christmas)',
         ],
         // Notes: Made specifically for PokéClicker.
     },
